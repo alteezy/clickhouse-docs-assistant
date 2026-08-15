@@ -1,3 +1,10 @@
 dlt[duckdb]==1.29.0
 gitsource==0.0.5
 duckdb==1.5.4
+onnxruntime==1.27.0
+tokenizers==0.23.1
+huggingface_hub==1.22.0
+numpy==1.26.4
+tqdm==4.66.5
+qdrant-client==1.19.0
+fastembed==0.8.0
