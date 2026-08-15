@@ -1,8 +1,13 @@
 import re
+import sys
+from pathlib import Path
 
-from pydantic_ai import Agent
+from pydantic_ai import Agent, InstrumentationSettings
 
 from retrieval import sparse_search
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "monitoring"))
+from tracing import build_tracer_provider  # noqa: E402
 
 # Occasionally the smaller instant model leaks a malformed tool-call string
 # into its final output instead of invoking search_docs through the proper
@@ -38,6 +43,7 @@ rag_agent = Agent(
     "groq:llama-3.1-8b-instant",
     instructions=INSTRUCTIONS,
 )
+rag_agent.instrument = InstrumentationSettings(tracer_provider=build_tracer_provider())
 
 
 @rag_agent.tool_plain

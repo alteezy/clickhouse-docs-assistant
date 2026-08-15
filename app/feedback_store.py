@@ -1,32 +1,23 @@
-import sqlite3
+import sys
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 
-DB_PATH = Path(__file__).resolve().parent / "feedback.db"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "monitoring"))
+from db import connect, init_db  # noqa: E402
 
-
-def _connect():
-    con = sqlite3.connect(DB_PATH)
-    con.execute(
-        """
-        CREATE TABLE IF NOT EXISTS feedback (
-            id TEXT PRIMARY KEY,
-            timestamp REAL NOT NULL,
-            question TEXT NOT NULL,
-            answer TEXT NOT NULL,
-            rating TEXT NOT NULL CHECK (rating IN ('up', 'down'))
-        )
-        """
-    )
-    return con
+init_db()
 
 
 def log_feedback(message_id: str, question: str, answer: str, rating: str) -> None:
-    con = _connect()
-    with con:
-        con.execute(
-            "INSERT OR REPLACE INTO feedback (id, timestamp, question, answer, rating) "
-            "VALUES (?, ?, ?, ?, ?)",
-            (message_id, time.time(), question, answer, rating),
+    con = connect()
+    with con, con.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO feedback (id, timestamp, question, answer, rating)
+            VALUES (%s, %s, %s, %s, %s)
+            ON CONFLICT (id) DO UPDATE SET rating = EXCLUDED.rating
+            """,
+            (message_id, datetime.fromtimestamp(time.time(), tz=timezone.utc), question, answer, rating),
         )
     con.close()
