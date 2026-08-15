@@ -8,3 +8,6 @@ numpy==1.26.4
 tqdm==4.66.5
 qdrant-client==1.19.0
 fastembed==0.8.0
+openai==2.46.0
+python-dotenv==1.2.2
+pandas==2.2.2

@@ -1,0 +1,376 @@
+question,chunk_id,filename
+How can I optimize spatial query performance in ClickHouse?,docs/getting-started/example-datasets/foursquare-os-places.md::9000,docs/getting-started/example-datasets/foursquare-os-places.md
+What indexing strategy can I use for faster search in geospatial data?,docs/getting-started/example-datasets/foursquare-os-places.md::9000,docs/getting-started/example-datasets/foursquare-os-places.md
+How can I import Foursquare places data into a ClickHouse table?,docs/getting-started/example-datasets/foursquare-os-places.md::9000,docs/getting-started/example-datasets/foursquare-os-places.md
+What is an example of how data skipping indices can optimize a query?,docs/best-practices/using_data_skipping_indices.md::6000,docs/best-practices/using_data_skipping_indices.md
+How do I use EXPLAIN indexes to analyze the performance of a query on a large dataset?,docs/best-practices/using_data_skipping_indices.md::6000,docs/best-practices/using_data_skipping_indices.md
+What type of information can I expect to see in the output of an EXPLAIN indexes query in ClickHouse?,docs/best-practices/using_data_skipping_indices.md::6000,docs/best-practices/using_data_skipping_indices.md
+"How can I optimize the performance of my queries in ClickHouse, especially when using JOINs?",docs/dictionary/index.md::0,docs/dictionary/index.md
+What is the benefit of using a dictionary to enrich ingested data in ClickHouse?,docs/dictionary/index.md::0,docs/dictionary/index.md
+"Can I use a dictionary to speed up a LEFT ANY type of JOIN in ClickHouse and if so, how?",docs/dictionary/index.md::0,docs/dictionary/index.md
+How do I avoid encoding issues with Oracle ODBC in ClickHouse?,docs/faq/integration/oracle-odbc.md::0,docs/faq/integration/oracle-odbc.md
+What environment variable do I need to set for Oracle ODBC in ClickHouse?,docs/faq/integration/oracle-odbc.md::0,docs/faq/integration/oracle-odbc.md
+How can I configure encoding for external dictionaries from Oracle in ClickHouse?,docs/faq/integration/oracle-odbc.md::0,docs/faq/integration/oracle-odbc.md
+How can I automatically apply optimizations to reduce read volume in ClickHouse queries?,docs/guides/best-practices/prewhere.md::4000,docs/guides/best-practices/prewhere.md
+What factors does ClickHouse consider when determining the order of PREWHERE filter columns for multi-step processing?,docs/guides/best-practices/prewhere.md::4000,docs/guides/best-practices/prewhere.md
+How can I measure the impact of PREWHERE on query performance in ClickHouse?,docs/guides/best-practices/prewhere.md::4000,docs/guides/best-practices/prewhere.md
+How does ClickHouse handle queries across multiple nodes?,docs/managing-data/core-concepts/academic_overview.mdx::39000,docs/managing-data/core-concepts/academic_overview.mdx
+What steps are taken to optimize query performance in different stages of execution?,docs/managing-data/core-concepts/academic_overview.mdx::39000,docs/managing-data/core-concepts/academic_overview.mdx
+What kind of transformations are applied to a query to improve its performance before it's executed?,docs/managing-data/core-concepts/academic_overview.mdx::39000,docs/managing-data/core-concepts/academic_overview.mdx
+How does ClickHouse optimize CPU usage to improve performance?,docs/concepts/why-clickhouse-is-so-fast.mdx::9000,docs/concepts/why-clickhouse-is-so-fast.mdx
+What strategies does ClickHouse use to scale performance with multiple CPU cores and nodes?,docs/concepts/why-clickhouse-is-so-fast.mdx::9000,docs/concepts/why-clickhouse-is-so-fast.mdx
+What design decisions contribute to ClickHouse's ability to achieve high performance compared to other systems?,docs/concepts/why-clickhouse-is-so-fast.mdx::9000,docs/concepts/why-clickhouse-is-so-fast.mdx
+How does ClickHouse handle data insertion to keep writes efficient?,docs/concepts/why-clickhouse-is-so-fast.mdx::1000,docs/concepts/why-clickhouse-is-so-fast.mdx
+What happens to data parts in ClickHouse to prevent too many from accumulating?,docs/concepts/why-clickhouse-is-so-fast.mdx::1000,docs/concepts/why-clickhouse-is-so-fast.mdx
+How are inserts and selects isolated in the ClickHouse storage layer?,docs/concepts/why-clickhouse-is-so-fast.mdx::1000,docs/concepts/why-clickhouse-is-so-fast.mdx
+How to validate the checksum of the raw weather data file after downloading it?,docs/getting-started/example-datasets/tw-weather.md::3000,docs/getting-started/example-datasets/tw-weather.md
+What command can be used to convert the UTF-8-BOM to UTF-8 encoding in the weather station list CSV file?,docs/getting-started/example-datasets/tw-weather.md::3000,docs/getting-started/example-datasets/tw-weather.md
+What is the structure of the table schema for the Taiwan weather data in ClickHouse?,docs/getting-started/example-datasets/tw-weather.md::3000,docs/getting-started/example-datasets/tw-weather.md
+How do I install ClickHouse without using deb or rpm packages?,docs/getting-started/install/_snippets/_linux_tar_install.md::0,docs/getting-started/install/_snippets/_linux_tar_install.md
+What's the best way to find the latest stable version of ClickHouse for production environments?,docs/getting-started/install/_snippets/_linux_tar_install.md::0,docs/getting-started/install/_snippets/_linux_tar_install.md
+What command can I use to detect the system architecture for installing ClickHouse?,docs/getting-started/install/_snippets/_linux_tar_install.md::0,docs/getting-started/install/_snippets/_linux_tar_install.md
+How do I set up the default profile for users in ClickHouse?,docs/deployment-guides/replication-sharding-examples/03_2_shards_2_replicas.md::13000,docs/deployment-guides/replication-sharding-examples/03_2_shards_2_replicas.md
+What configuration settings are required for the default user in a ClickHouse cluster?,docs/deployment-guides/replication-sharding-examples/03_2_shards_2_replicas.md::13000,docs/deployment-guides/replication-sharding-examples/03_2_shards_2_replicas.md
+How do I configure the quotas for the default user in a ClickHouse setup?,docs/deployment-guides/replication-sharding-examples/03_2_shards_2_replicas.md::13000,docs/deployment-guides/replication-sharding-examples/03_2_shards_2_replicas.md
+What is the purpose of using data skipping indexes in ClickHouse?,docs/best-practices/using_data_skipping_indices.md::12000,docs/best-practices/using_data_skipping_indices.md
+How can I get more information about creating and managing skipping indexes?,docs/best-practices/using_data_skipping_indices.md::12000,docs/best-practices/using_data_skipping_indices.md
+Where can I find examples of how to use data skipping indexes to optimize queries?,docs/best-practices/using_data_skipping_indices.md::12000,docs/best-practices/using_data_skipping_indices.md
+What data type is used for the description field in the YouTube dataset of dislikes?,docs/getting-started/example-datasets/youtube-dislikes.md::5000,docs/getting-started/example-datasets/youtube-dislikes.md
+How is the rich metadata stored in the YouTube dataset of dislikes?,docs/getting-started/example-datasets/youtube-dislikes.md::5000,docs/getting-started/example-datasets/youtube-dislikes.md
+What type of data does the uploader_badges field in the YouTube dataset of dislikes contain?,docs/getting-started/example-datasets/youtube-dislikes.md::5000,docs/getting-started/example-datasets/youtube-dislikes.md
+How do I modify existing data in ClickHouse?,docs/managing-data/updating-data/index.md::0,docs/managing-data/updating-data/index.md
+What are the main differences between updating data in ClickHouse and other databases?,docs/managing-data/updating-data/index.md::0,docs/managing-data/updating-data/index.md
+What is the process for updating data using the ReplacingMergeTree method?,docs/managing-data/updating-data/index.md::0,docs/managing-data/updating-data/index.md
+How should I configure user passwords in my ClickHouse setup for security purposes?,docs/deployment-guides/replication-sharding-examples/02_2_shards_1_replica.md::13000,docs/deployment-guides/replication-sharding-examples/02_2_shards_1_replica.md
+What should be the contents of the users.xml file across different nodes in a ClickHouse cluster?,docs/deployment-guides/replication-sharding-examples/02_2_shards_1_replica.md::13000,docs/deployment-guides/replication-sharding-examples/02_2_shards_1_replica.md
+What command should I use to start my ClickHouse cluster using docker-compose?,docs/deployment-guides/replication-sharding-examples/02_2_shards_1_replica.md::13000,docs/deployment-guides/replication-sharding-examples/02_2_shards_1_replica.md
+How does ClickHouse optimize queries for faster execution?,docs/managing-data/core-concepts/academic_overview.mdx::42000,docs/managing-data/core-concepts/academic_overview.mdx
+What conditions allow ClickHouse to use the primary key index for evaluating WHERE conditions?,docs/managing-data/core-concepts/academic_overview.mdx::42000,docs/managing-data/core-concepts/academic_overview.mdx
+What techniques does ClickHouse use to avoid reading data during query runtime?,docs/managing-data/core-concepts/academic_overview.mdx::42000,docs/managing-data/core-concepts/academic_overview.mdx
+What's the most memory-efficient way to perform a join in ClickHouse when the table's row order matches the join key sort order?,docs/guides/joining-tables.md::10000,docs/guides/joining-tables.md
+How can I reduce memory usage when using a hash join in ClickHouse?,docs/guides/joining-tables.md::10000,docs/guides/joining-tables.md
+"Which join method in ClickHouse uses the least amount of main memory, and are there any trade-offs?",docs/guides/joining-tables.md::10000,docs/guides/joining-tables.md
+What's the process for a node to adopt a new state in a ClickHouse cluster?,docs/managing-data/core-concepts/academic_overview.mdx::29000,docs/managing-data/core-concepts/academic_overview.mdx
+How do nodes in a ClickHouse cluster optimize the synchronization process?,docs/managing-data/core-concepts/academic_overview.mdx::29000,docs/managing-data/core-concepts/academic_overview.mdx
+How does ClickHouse ensure data consistency during concurrent read and write operations?,docs/managing-data/core-concepts/academic_overview.mdx::29000,docs/managing-data/core-concepts/academic_overview.mdx
+How does ClickHouse's query engine handle searching for specific URL values when the URL column isn't the first key column in the primary index?,docs/guides/best-practices/sparse-primary-indexes.md::44000,docs/guides/best-practices/sparse-primary-indexes.md
+What algorithm does ClickHouse use when searching for values in a non-first key column of a primary index and why is it less efficient?,docs/guides/best-practices/sparse-primary-indexes.md::44000,docs/guides/best-practices/sparse-primary-indexes.md
+Why doesn't a primary index based on a compound key provide significant speedup for queries filtering on non-first key columns?,docs/guides/best-practices/sparse-primary-indexes.md::44000,docs/guides/best-practices/sparse-primary-indexes.md
+How do I import data into clickhouse from a csv file using the command line?,docs/getting-started/example-datasets/tpcds.md::3000,docs/getting-started/example-datasets/tpcds.md
+Where can I find the full list of TPC-DS queries that work with ClickHouse?,docs/getting-started/example-datasets/tpcds.md::3000,docs/getting-started/example-datasets/tpcds.md
+What settings do I need to apply to get standard SQL compatible results for the TPC-DS queries?,docs/getting-started/example-datasets/tpcds.md::3000,docs/getting-started/example-datasets/tpcds.md
+What year did the property price data in England and Wales become available?,docs/getting-started/example-datasets/uk-price-paid.md::0,docs/getting-started/example-datasets/uk-price-paid.md
+How can I license and use the HM Land Registry dataset in my ClickHouse project?,docs/getting-started/example-datasets/uk-price-paid.md::0,docs/getting-started/example-datasets/uk-price-paid.md
+What SQL commands do I need to create the uk_price_paid table in ClickHouse?,docs/getting-started/example-datasets/uk-price-paid.md::0,docs/getting-started/example-datasets/uk-price-paid.md
+What are some alternative dictionary layouts when the full dataset doesn't fit in memory?,docs/dictionary/best-practices.md::3000,docs/dictionary/best-practices.md
+How can I track memory usage and the health of my dictionaries in ClickHouse?,docs/dictionary/best-practices.md::3000,docs/dictionary/best-practices.md
+What metrics can I use to evaluate the effectiveness of a cache layout for my dictionary?,docs/dictionary/best-practices.md::3000,docs/dictionary/best-practices.md
+How do I configure logging in ClickHouse to get a debug log with specific rollover settings?,docs/deployment-guides/replication-sharding-examples/03_2_shards_2_replicas.md::9000,docs/deployment-guides/replication-sharding-examples/03_2_shards_2_replicas.md
+How can I set up a cluster in ClickHouse and define its layout using shards and replicas?,docs/deployment-guides/replication-sharding-examples/03_2_shards_2_replicas.md::9000,docs/deployment-guides/replication-sharding-examples/03_2_shards_2_replicas.md
+What setting do I use to control whether data is written to one or all replicas in a ClickHouse cluster?,docs/deployment-guides/replication-sharding-examples/03_2_shards_2_replicas.md::9000,docs/deployment-guides/replication-sharding-examples/03_2_shards_2_replicas.md
+What data types are used for numeric and non-numeric fields in the NYPD complaint data,docs/getting-started/example-datasets/nypd_complaint_data.md::5000,docs/getting-started/example-datasets/nypd_complaint_data.md
+How can I determine the appropriate data types for fields in my ClickHouse table,docs/getting-started/example-datasets/nypd_complaint_data.md::5000,docs/getting-started/example-datasets/nypd_complaint_data.md
+How can I use the clickhouse-local command to infer the schema of my data,docs/getting-started/example-datasets/nypd_complaint_data.md::5000,docs/getting-started/example-datasets/nypd_complaint_data.md
+How does ClickHouse handle high availability and replication?,docs/deployment-guides/replication-sharding-examples/_snippets/_cloud_tip.mdx::0,docs/deployment-guides/replication-sharding-examples/_snippets/_cloud_tip.mdx
+Can compute and storage in ClickHouse be scaled manually?,docs/deployment-guides/replication-sharding-examples/_snippets/_cloud_tip.mdx::0,docs/deployment-guides/replication-sharding-examples/_snippets/_cloud_tip.mdx
+What are the benefits of using ClickHouse Cloud for database management?,docs/deployment-guides/replication-sharding-examples/_snippets/_cloud_tip.mdx::0,docs/deployment-guides/replication-sharding-examples/_snippets/_cloud_tip.mdx
+What information is needed to define a replica in a ClickHouse cluster?,docs/guides/sre/keeper/index.md::56000,docs/guides/sre/keeper/index.md
+How do I verify that a cluster has been successfully created in ClickHouse?,docs/guides/sre/keeper/index.md::56000,docs/guides/sre/keeper/index.md
+What SQL command can be used to display a list of existing clusters in ClickHouse?,docs/guides/sre/keeper/index.md::56000,docs/guides/sre/keeper/index.md
+What does the table engine in ClickHouse determine about my data?,docs/guides/starter_guides/creating-tables.md::1000,docs/guides/starter_guides/creating-tables.md
+How do primary keys work differently in ClickHouse than in other databases?,docs/guides/starter_guides/creating-tables.md::1000,docs/guides/starter_guides/creating-tables.md
+What happens if I don't define a primary key when creating a table in ClickHouse?,docs/guides/starter_guides/creating-tables.md::1000,docs/guides/starter_guides/creating-tables.md
+What data does the sample web traffic data set contain?,docs/guides/best-practices/sparse-primary-indexes.md::1000,docs/guides/best-practices/sparse-primary-indexes.md
+What are some examples of web analytics queries that can be formulated with the given data set?,docs/guides/best-practices/sparse-primary-indexes.md::1000,docs/guides/best-practices/sparse-primary-indexes.md
+What type of machine is used to run ClickHouse for the test in this guide?,docs/guides/best-practices/sparse-primary-indexes.md::1000,docs/guides/best-practices/sparse-primary-indexes.md
+How do I incrementally build a materialized view in ClickHouse without using too much memory?,docs/data-modeling/backfilling.md::23000,docs/data-modeling/backfilling.md
+What's an effective way to backfill data into a materialized view in ClickHouse and how can I limit the schema to only the columns I need?,docs/data-modeling/backfilling.md::23000,docs/data-modeling/backfilling.md
+How can I populate a materialized view with existing data from another table in ClickHouse to perform aggregations?,docs/data-modeling/backfilling.md::23000,docs/data-modeling/backfilling.md
+What ClickHouse version is recommended for separating storage and compute?,docs/guides/separation-storage-compute.md::1000,docs/guides/separation-storage-compute.md
+How can I use S3 as a disk in ClickHouse and what configuration is required?,docs/guides/separation-storage-compute.md::1000,docs/guides/separation-storage-compute.md
+What are the potential issues with configuring AWS life cycle policy for ClickHouse storage?,docs/guides/separation-storage-compute.md::1000,docs/guides/separation-storage-compute.md
+How do I configure internal replication for shards in ClickHouse?,docs/deployment-guides/replication-sharding-examples/01_1_shard_2_replicas.md::5000,docs/deployment-guides/replication-sharding-examples/01_1_shard_2_replicas.md
+What is the purpose of the zookeeper section in the ClickHouse configuration file?,docs/deployment-guides/replication-sharding-examples/01_1_shard_2_replicas.md::5000,docs/deployment-guides/replication-sharding-examples/01_1_shard_2_replicas.md
+Where can I find an example of a config.xml file for a ClickHouse cluster?,docs/deployment-guides/replication-sharding-examples/01_1_shard_2_replicas.md::5000,docs/deployment-guides/replication-sharding-examples/01_1_shard_2_replicas.md
+How do I set up user authentication with SSL certificates in ClickHouse?,docs/guides/sre/user-management/ssl-user-auth.md::0,docs/guides/sre/user-management/ssl-user-auth.md
+What interfaces support SSL user authentication in ClickHouse?,docs/guides/sre/user-management/ssl-user-auth.md::0,docs/guides/sre/user-management/ssl-user-auth.md
+What verification mode is required for secure authentication with SSL user certificates in ClickHouse?,docs/guides/sre/user-management/ssl-user-auth.md::0,docs/guides/sre/user-management/ssl-user-auth.md
+What are the different ways to obtain the full New York taxi dataset for use with ClickHouse?,docs/getting-started/example-datasets/nyc-taxi.md::0,docs/getting-started/example-datasets/nyc-taxi.md
+How can I access and query the full New York taxi dataset without having to download it?,docs/getting-started/example-datasets/nyc-taxi.md::0,docs/getting-started/example-datasets/nyc-taxi.md
+What is the SQL query to create a table for the New York taxi rides data in ClickHouse?,docs/getting-started/example-datasets/nyc-taxi.md::0,docs/getting-started/example-datasets/nyc-taxi.md
+How can I refill my table with historical data after it has been created?,docs/data-modeling/backfilling.md::33000,docs/data-modeling/backfilling.md
+What SQL statement can I use to transfer data from a backup table to a new table?,docs/data-modeling/backfilling.md::33000,docs/data-modeling/backfilling.md
+Is it necessary to stop all insert operations while backfilling data into a table?,docs/data-modeling/backfilling.md::33000,docs/data-modeling/backfilling.md
+What datasets are available for practicing data analysis with ClickHouse?,docs/getting-started/index.md::1000,docs/getting-started/index.md
+Are there any tutorials on analyzing COVID-19 data using ClickHouse?,docs/getting-started/index.md::1000,docs/getting-started/index.md
+Can I find a dataset with a large number of records from environmental sensors for testing ClickHouse performance?,docs/getting-started/index.md::1000,docs/getting-started/index.md
+How does ClickHouse handle duplicate inserts when retrying an operation?,docs/guides/developer/deduplicating-inserts-on-retries.md::3000,docs/guides/developer/deduplicating-inserts-on-retries.md
+What setting can I use to control deduplication for intentionally inserting the same data multiple times?,docs/guides/developer/deduplicating-inserts-on-retries.md::3000,docs/guides/developer/deduplicating-inserts-on-retries.md
+Is deduplication automatically applied to data inserted using INSERT ... SELECT queries?,docs/guides/developer/deduplicating-inserts-on-retries.md::3000,docs/guides/developer/deduplicating-inserts-on-retries.md
+How do I get started with using the ClickHouse command line interface?,docs/deployment-modes.md::5000,docs/deployment-modes.md
+What are the use cases for using clickhouse-local and how does it differ from ClickHouse Server?,docs/deployment-modes.md::5000,docs/deployment-modes.md
+Are there any ClickHouse tools that allow me to perform ad-hoc data analysis directly from the command line without running a server?,docs/deployment-modes.md::5000,docs/deployment-modes.md
+How does ClickHouse handle tail latency in parallel processing?,docs/deployment-guides/parallel-replicas.mdx::7000,docs/deployment-guides/parallel-replicas.mdx
+What is the role of the coordinator in dynamic coordination and how does it assign tasks to replicas?,docs/deployment-guides/parallel-replicas.mdx::7000,docs/deployment-guides/parallel-replicas.mdx
+How does ClickHouse ensure cache locality when executing the same query multiple times?,docs/deployment-guides/parallel-replicas.mdx::7000,docs/deployment-guides/parallel-replicas.mdx
+How often does ClickHouse check if TLS certificates need to be renewed?,docs/guides/sre/tls/configuring-tls-acme-client.md::3000,docs/guides/sre/tls/configuring-tls-acme-client.md
+What is the recommended approach for testing the certificate issuing process to avoid hitting request quotas?,docs/guides/sre/tls/configuring-tls-acme-client.md::3000,docs/guides/sre/tls/configuring-tls-acme-client.md
+What are the potential issues with enabling the ACME client on a cluster with multiple replicas during initial deployment?,docs/guides/sre/tls/configuring-tls-acme-client.md::3000,docs/guides/sre/tls/configuring-tls-acme-client.md
+How do I tell ClickHouse where its Keeper is running?,docs/deployment-guides/replication-sharding-examples/01_1_shard_2_replicas.md::9000,docs/deployment-guides/replication-sharding-examples/01_1_shard_2_replicas.md
+Can I run ClickHouse Keeper on the same server as ClickHouse?,docs/deployment-guides/replication-sharding-examples/01_1_shard_2_replicas.md::9000,docs/deployment-guides/replication-sharding-examples/01_1_shard_2_replicas.md
+What is the purpose of the macros section in ClickHouse configuration?,docs/deployment-guides/replication-sharding-examples/01_1_shard_2_replicas.md::9000,docs/deployment-guides/replication-sharding-examples/01_1_shard_2_replicas.md
+How do I speed up the update process in ClickHouse?,docs/managing-data/updating-data/overview.mdx::17000,docs/managing-data/updating-data/overview.mdx
+What are the limitations of using on-the-fly mutations to update rows in ClickHouse?,docs/managing-data/updating-data/overview.mdx::17000,docs/managing-data/updating-data/overview.mdx
+When should I use on-the-fly mutations instead of regular mutations in ClickHouse?,docs/managing-data/updating-data/overview.mdx::17000,docs/managing-data/updating-data/overview.mdx
+How does ClickHouse handle node failures in a cluster?,docs/guides/sre/keeper/index.md::41000,docs/guides/sre/keeper/index.md
+What are the limitations of dynamically reconfiguring a ClickHouse cluster?,docs/guides/sre/keeper/index.md::41000,docs/guides/sre/keeper/index.md
+How can I recover a ClickHouse cluster that has lost too many nodes at the same time?,docs/guides/sre/keeper/index.md::41000,docs/guides/sre/keeper/index.md
+How do I create a table to store geospatial data for Moscow in ClickHouse?,docs/getting-started/example-datasets/cell-towers.md::5000,docs/getting-started/example-datasets/cell-towers.md
+What SQL query can I use to create a temporary table for storing Moscow's polygon data?,docs/getting-started/example-datasets/cell-towers.md::5000,docs/getting-started/example-datasets/cell-towers.md
+How can I represent the shape of Moscow as a polygon in a ClickHouse table using latitude and longitude coordinates?,docs/getting-started/example-datasets/cell-towers.md::5000,docs/getting-started/example-datasets/cell-towers.md
+How do you create a table with a compound primary key in ClickHouse?,docs/guides/best-practices/sparse-primary-indexes.md::11000,docs/guides/best-practices/sparse-primary-indexes.md
+What settings control the number of index entries in a primary index?,docs/guides/best-practices/sparse-primary-indexes.md::11000,docs/guides/best-practices/sparse-primary-indexes.md
+What is the difference between index_granularity and index_granularity_bytes in ClickHouse?,docs/guides/best-practices/sparse-primary-indexes.md::11000,docs/guides/best-practices/sparse-primary-indexes.md
+How can I control whether ClickHouse uses parallel replicas or not?,docs/deployment-guides/parallel-replicas.mdx::15000,docs/deployment-guides/parallel-replicas.mdx
+What setting determines the minimum number of rows per replica when using parallel replicas?,docs/deployment-guides/parallel-replicas.mdx::15000,docs/deployment-guides/parallel-replicas.mdx
+Can I use parallel replicas without having the analyzer enabled?,docs/deployment-guides/parallel-replicas.mdx::15000,docs/deployment-guides/parallel-replicas.mdx
+What happens to memory usage and disk I/O when the PREWHERE optimization is applied?,docs/guides/best-practices/prewhere.md::3000,docs/guides/best-practices/prewhere.md
+How does ClickHouse decide which filter conditions to move to PREWHERE automatically?,docs/guides/best-practices/prewhere.md::3000,docs/guides/best-practices/prewhere.md
+Does using the PREWHERE clause change the number of rows that ClickHouse processes?,docs/guides/best-practices/prewhere.md::3000,docs/guides/best-practices/prewhere.md
+How can I download the Hacker News dataset in CSV format?,docs/getting-started/example-datasets/hacker-news.md::0,docs/getting-started/example-datasets/hacker-news.md
+What tool can I use to sample and explore the Hacker News dataset locally without deploying a ClickHouse server?,docs/getting-started/example-datasets/hacker-news.md::0,docs/getting-started/example-datasets/hacker-news.md
+How can I preview the contents of the Hacker News dataset using ClickHouse before storing it?,docs/getting-started/example-datasets/hacker-news.md::0,docs/getting-started/example-datasets/hacker-news.md
+How do I use SSL certificates for user authentication in ClickHouse?,docs/guides/sre/user-management/ssl-user-auth.md::4000,docs/guides/sre/user-management/ssl-user-auth.md
+What is the format for using curl to test a SQL command with SSL certificates in ClickHouse?,docs/guides/sre/user-management/ssl-user-auth.md::4000,docs/guides/sre/user-management/ssl-user-auth.md
+Do I need to provide a password when using SSL certificates for authentication in ClickHouse?,docs/guides/sre/user-management/ssl-user-auth.md::4000,docs/guides/sre/user-management/ssl-user-auth.md
+How does the primary index store data in ClickHouse?,docs/guides/best-practices/sparse-primary-indexes.md::23000,docs/guides/best-practices/sparse-primary-indexes.md
+What data is stored in the primary index of a ClickHouse table?,docs/guides/best-practices/sparse-primary-indexes.md::23000,docs/guides/best-practices/sparse-primary-indexes.md
+How many entries are in a primary index based on the number of rows and granules in a table?,docs/guides/best-practices/sparse-primary-indexes.md::23000,docs/guides/best-practices/sparse-primary-indexes.md
+How can I automatically get the latest version of ClickHouse?,docs/getting-started/install/_snippets/_linux_tar_install.md::1000,docs/getting-started/install/_snippets/_linux_tar_install.md
+What bash command can I use to detect and set the system architecture for ClickHouse?,docs/getting-started/install/_snippets/_linux_tar_install.md::1000,docs/getting-started/install/_snippets/_linux_tar_install.md
+How do I download the correct ClickHouse component tarballs for my system architecture?,docs/getting-started/install/_snippets/_linux_tar_install.md::1000,docs/getting-started/install/_snippets/_linux_tar_install.md
+What are the main differences between using materialized views and projections in database management?,docs/data-modeling/projections/2_materialized-views-versus-projections.md::0,docs/data-modeling/projections/2_materialized-views-versus-projections.md
+When should I choose materialized views over projections for data storage and location?,docs/data-modeling/projections/2_materialized-views-versus-projections.md::0,docs/data-modeling/projections/2_materialized-views-versus-projections.md
+How do materialized views and projections compare in terms of key aspects such as data storage and location?,docs/data-modeling/projections/2_materialized-views-versus-projections.md::0,docs/data-modeling/projections/2_materialized-views-versus-projections.md
+How can I set up ClickHouse on a Debian-based system using the official packages?,docs/getting-started/install/_snippets/_deb_install.md::0,docs/getting-started/install/_snippets/_deb_install.md
+What are the steps to add the ClickHouse repository to my Ubuntu installation?,docs/getting-started/install/_snippets/_deb_install.md::0,docs/getting-started/install/_snippets/_deb_install.md
+What command should I use to update the package lists after adding the ClickHouse repository?,docs/getting-started/install/_snippets/_deb_install.md::0,docs/getting-started/install/_snippets/_deb_install.md
+How can I combine multiple tables in Incremental Materialized Views?,docs/materialized-view/incremental-materialized-view.md::33000,docs/materialized-view/incremental-materialized-view.md
+What is an alternative to using UNION ALL in Incremental Materialized Views?,docs/materialized-view/incremental-materialized-view.md::33000,docs/materialized-view/incremental-materialized-view.md
+Can I use UNION ALL queries with Incremental Materialized Views in ClickHouse?,docs/materialized-view/incremental-materialized-view.md::33000,docs/materialized-view/incremental-materialized-view.md
+What makes ClickHouse's query processing so efficient?,docs/concepts/why-clickhouse-is-so-fast.mdx::10000,docs/concepts/why-clickhouse-is-so-fast.mdx
+How do hash tables contribute to the performance of ClickHouse?,docs/concepts/why-clickhouse-is-so-fast.mdx::10000,docs/concepts/why-clickhouse-is-so-fast.mdx
+What kind of design decisions are necessary when implementing hash tables in a database system like ClickHouse?,docs/concepts/why-clickhouse-is-so-fast.mdx::10000,docs/concepts/why-clickhouse-is-so-fast.mdx
+How can column-oriented databases improve performance for analytical queries?,docs/intro.md::13000,docs/intro.md
+What benefits do column-oriented databases offer in terms of input and output operations?,docs/intro.md::13000,docs/intro.md
+How can dispatching operations for entire vectors instead of separate rows improve query execution speed in a database?,docs/intro.md::13000,docs/intro.md
+What SQL commands are used to create the customer table in ClickHouse for the Star Schema Benchmark?,docs/getting-started/example-datasets/star-schema.md::1000,docs/getting-started/example-datasets/star-schema.md
+How do I define the schema for the lineorder table in ClickHouse using SQL?,docs/getting-started/example-datasets/star-schema.md::1000,docs/getting-started/example-datasets/star-schema.md
+What is the SQL query to create the supplier table with the required columns in ClickHouse?,docs/getting-started/example-datasets/star-schema.md::1000,docs/getting-started/example-datasets/star-schema.md
+What type of data does the IsRobot column store in ClickHouse?,docs/guides/best-practices/sparse-primary-indexes.md::14000,docs/guides/best-practices/sparse-primary-indexes.md
+How are URL categories represented in the ClickHouse table structure?,docs/guides/best-practices/sparse-primary-indexes.md::14000,docs/guides/best-practices/sparse-primary-indexes.md
+What is the data type of the ClientEventTime field in ClickHouse?,docs/guides/best-practices/sparse-primary-indexes.md::14000,docs/guides/best-practices/sparse-primary-indexes.md
+What is a good order for the columns in the ordering key when designing a ClickHouse table for posts data?,docs/data-modeling/schema-design.md::25000,docs/data-modeling/schema-design.md
+How does using the `toDate` function on a `DateTime` column affect the size of the index in ClickHouse?,docs/data-modeling/schema-design.md::25000,docs/data-modeling/schema-design.md
+What is the purpose of including `CommentCount` as the final component of the ordering key in the `posts_v3` table?,docs/data-modeling/schema-design.md::25000,docs/data-modeling/schema-design.md
+How can I visualize the query execution plan in ClickHouse?,docs/guides/developer/understanding-query-execution-with-the-analyzer.md::19000,docs/guides/developer/understanding-query-execution-with-the-analyzer.md
+What does the 'compact' parameter do in the EXPLAIN PIPELINE query?,docs/guides/developer/understanding-query-execution-with-the-analyzer.md::19000,docs/guides/developer/understanding-query-execution-with-the-analyzer.md
+How can I increase the number of threads used by ClickHouse to read from a table?,docs/guides/developer/understanding-query-execution-with-the-analyzer.md::19000,docs/guides/developer/understanding-query-execution-with-the-analyzer.md
+How do right-side tables in a JOIN within a materialized view get updated?,docs/materialized-view/incremental-materialized-view.md::19000,docs/materialized-view/incremental-materialized-view.md
+What happens when I update a right-side table in a materialized view with a JOIN?,docs/materialized-view/incremental-materialized-view.md::19000,docs/materialized-view/incremental-materialized-view.md
+Can I use a materialized view to retroactively update data when the right-side table in a JOIN changes?,docs/materialized-view/incremental-materialized-view.md::19000,docs/materialized-view/incremental-materialized-view.md
+How do I create a table in ClickHouse with the MergeTree table engine and no primary key to test a full table scan?,docs/guides/best-practices/sparse-primary-indexes.md::2000,docs/guides/best-practices/sparse-primary-indexes.md
+What SQL statement can I use to load a subset of the hits dataset from a remote URL into my ClickHouse table?,docs/guides/best-practices/sparse-primary-indexes.md::2000,docs/guides/best-practices/sparse-primary-indexes.md
+What is the purpose of executing the provided SQL DDL statement when working with primary indexes in ClickHouse?,docs/guides/best-practices/sparse-primary-indexes.md::2000,docs/guides/best-practices/sparse-primary-indexes.md
+What steps are involved when ClickHouse is executing a query?,docs/guides/best-practices/query-optimization.md::2000,docs/guides/best-practices/query-optimization.md
+How can we track metrics that affect query performance in ClickHouse?,docs/guides/best-practices/query-optimization.md::2000,docs/guides/best-practices/query-optimization.md
+Can I create a table in ClickHouse and insert data into it from an S3 bucket with an inferred schema?,docs/guides/best-practices/query-optimization.md::2000,docs/guides/best-practices/query-optimization.md
+How do I limit the amount of data that ClickHouse analyzes with popular queries?,docs/guides/best-practices/skipping-indexes.md::11000,docs/guides/best-practices/skipping-indexes.md
+What types of functions work well with the different kinds of skip indexes in ClickHouse?,docs/guides/best-practices/skipping-indexes.md::11000,docs/guides/best-practices/skipping-indexes.md
+What settings are available to control how ClickHouse uses skip indexes for query optimization?,docs/guides/best-practices/skipping-indexes.md::11000,docs/guides/best-practices/skipping-indexes.md
+What kind of workloads is ClickHouse optimized for?,docs/managing-data/core-concepts/academic_overview.mdx::65000,docs/managing-data/core-concepts/academic_overview.mdx
+How does ClickHouse handle transactions compared to other databases like DuckDB?,docs/managing-data/core-concepts/academic_overview.mdx::65000,docs/managing-data/core-concepts/academic_overview.mdx
+What are some key features that enable ClickHouse to provide high-performance analytics over large datasets?,docs/managing-data/core-concepts/academic_overview.mdx::65000,docs/managing-data/core-concepts/academic_overview.mdx
+How does ClickHouse support access control for users?,docs/intro.md::5000,docs/intro.md
+What SQL features are supported by ClickHouse for querying data?,docs/intro.md::5000,docs/intro.md
+Are there any ways in ClickHouse to balance accuracy with performance when running queries?,docs/intro.md::5000,docs/intro.md
+How can I verify the database type in ClickHouse?,docs/guides/sre/keeper/index.md::68000,docs/guides/sre/keeper/index.md
+What are the steps to dynamically reconfigure a ClickHouse Keeper cluster?,docs/guides/sre/keeper/index.md::68000,docs/guides/sre/keeper/index.md
+How do I determine the configuration of a ClickHouse Keeper cluster?,docs/guides/sre/keeper/index.md::68000,docs/guides/sre/keeper/index.md
+What is the data type for the total_amount column in this dataset?,docs/tutorial.md::4000,docs/tutorial.md
+How many rows should be returned when verifying the insert operation?,docs/tutorial.md::4000,docs/tutorial.md
+What is the expected average tip amount when calculating it from the trips table?,docs/tutorial.md::4000,docs/tutorial.md
+How can I get consistent results when sampling users in my queries?,docs/tips-and-tricks/performance-optimization.md::4000,docs/tips-and-tricks/performance-optimization.md
+What can I do to optimize memory usage when aggregating data by high-cardinality columns?,docs/tips-and-tricks/performance-optimization.md::4000,docs/tips-and-tricks/performance-optimization.md
+How can I perform memory-efficient aggregations in ClickHouse when dealing with large datasets?,docs/tips-and-tricks/performance-optimization.md::4000,docs/tips-and-tricks/performance-optimization.md
+What data types are used to represent geographical location in Foursquare places data?,docs/getting-started/example-datasets/foursquare-os-places.md::4000,docs/getting-started/example-datasets/foursquare-os-places.md
+How can I store the bounding box coordinates in ClickHouse for Foursquare places data?,docs/getting-started/example-datasets/foursquare-os-places.md::4000,docs/getting-started/example-datasets/foursquare-os-places.md
+What is the appropriate data type to use for the date fields like date_created in Foursquare places data?,docs/getting-started/example-datasets/foursquare-os-places.md::4000,docs/getting-started/example-datasets/foursquare-os-places.md
+How do I handle row updates in ClickHouse for denormalized data?,docs/data-modeling/denormalization.md::4000,docs/data-modeling/denormalization.md
+What are some practical use cases where denormalizing data in ClickHouse makes sense?,docs/data-modeling/denormalization.md::4000,docs/data-modeling/denormalization.md
+How can I optimize the schema for separate tables like posts and votes in ClickHouse?,docs/data-modeling/denormalization.md::4000,docs/data-modeling/denormalization.md
+How does ClickHouse simplify and speed up query execution?,docs/managing-data/core-concepts/academic_overview.mdx::40000,docs/managing-data/core-concepts/academic_overview.mdx
+What kinds of transformations can be applied during the optimization of a query plan?,docs/managing-data/core-concepts/academic_overview.mdx::40000,docs/managing-data/core-concepts/academic_overview.mdx
+What benefits does ClickHouse's sort aggregation provide compared to hash aggregation?,docs/managing-data/core-concepts/academic_overview.mdx::40000,docs/managing-data/core-concepts/academic_overview.mdx
+What data type is used to represent the LastEditorDisplayName field in the schema?,docs/data-modeling/schema-design.md::14000,docs/data-modeling/schema-design.md
+"Can the OwnerDisplayName field be null and if so, how is it handled?",docs/data-modeling/schema-design.md::14000,docs/data-modeling/schema-design.md
+What is the data type of the ViewCount field and can it be null?,docs/data-modeling/schema-design.md::14000,docs/data-modeling/schema-design.md
+What are some SQL features that ClickHouse fully supports?,docs/faq/general/sql.md::0,docs/faq/general/sql.md
+How does ClickHouse validate its SQL support?,docs/faq/general/sql.md::0,docs/faq/general/sql.md
+What are some non-standard SQL features that ClickHouse has introduced?,docs/faq/general/sql.md::0,docs/faq/general/sql.md
+How can I add new records to a table in ClickHouse?,docs/guides/starter_guides/inserting-data.md::9000,docs/guides/starter_guides/inserting-data.md
+What are the available methods to import data from a PostgreSQL database into ClickHouse?,docs/guides/starter_guides/inserting-data.md::9000,docs/guides/starter_guides/inserting-data.md
+Can I use the INSERT INTO command with ClickHouse like I do with other SQL databases?,docs/guides/starter_guides/inserting-data.md::9000,docs/guides/starter_guides/inserting-data.md
+How can I identify columns with a lot of null values in my dataset?,docs/guides/best-practices/query-optimization.md::21000,docs/guides/best-practices/query-optimization.md
+What's a good way to determine if a column should use the LowCardinality data type?,docs/guides/best-practices/query-optimization.md::21000,docs/guides/best-practices/query-optimization.md
+How do I choose the most efficient data type for a column with numeric values in my table?,docs/guides/best-practices/query-optimization.md::21000,docs/guides/best-practices/query-optimization.md
+What happens when using a dictionary for a one-to-many relationship in ClickHouse?,docs/best-practices/minimize_optimize_joins.md::6000,docs/best-practices/minimize_optimize_joins.md
+How do I choose the most efficient JOIN algorithm in ClickHouse for my specific use case?,docs/best-practices/minimize_optimize_joins.md::6000,docs/best-practices/minimize_optimize_joins.md
+What are the different JOIN algorithms supported by ClickHouse and their respective use cases?,docs/best-practices/minimize_optimize_joins.md::6000,docs/best-practices/minimize_optimize_joins.md
+What type of database is ClickHouse and can it be used as a key-value storage?,docs/faq/use-cases/key-value.md::0,docs/faq/use-cases/key-value.md
+Are there situations where using ClickHouse for key-value queries makes sense and what are the considerations?,docs/faq/use-cases/key-value.md::0,docs/faq/use-cases/key-value.md
+How can I optimize ClickHouse for key-value-like queries if I decide to use it against the recommendations?,docs/faq/use-cases/key-value.md::0,docs/faq/use-cases/key-value.md
+How does ClickHouse speed up query execution times for range queries in data analytics use cases?,docs/guides/best-practices/sparse-primary-indexes.md::10000,docs/guides/best-practices/sparse-primary-indexes.md
+What is the purpose of setting a primary key when creating a table in ClickHouse and how does it affect query performance?,docs/guides/best-practices/sparse-primary-indexes.md::10000,docs/guides/best-practices/sparse-primary-indexes.md
+What are the implications of using a sparse index in ClickHouse and how does it relate to the primary key columns?,docs/guides/best-practices/sparse-primary-indexes.md::10000,docs/guides/best-practices/sparse-primary-indexes.md
+How can I calculate the average age of code in a GitHub repository using ClickHouse?,docs/getting-started/example-datasets/github.md::82000,docs/getting-started/example-datasets/github.md
+What SQL query can I use to get the top 10 paths with the oldest average code age in ClickHouse?,docs/getting-started/example-datasets/github.md::82000,docs/getting-started/example-datasets/github.md
+How do I join two sets of line changes in a GitHub repository to determine the average time code remains present in the repository?,docs/getting-started/example-datasets/github.md::82000,docs/getting-started/example-datasets/github.md
+How does ClickHouse handle data inserts to keep them efficient?,docs/managing-data/core-concepts/merges.mdx::0,docs/managing-data/core-concepts/merges.mdx
+What happens to smaller data parts in ClickHouse and how are they managed?,docs/managing-data/core-concepts/merges.mdx::0,docs/managing-data/core-concepts/merges.mdx
+How can I track and monitor the merging process of data parts in ClickHouse?,docs/managing-data/core-concepts/merges.mdx::0,docs/managing-data/core-concepts/merges.mdx
+What is required for both mutation and subsequent select queries in ClickHouse,docs/managing-data/updating-data/overview.mdx::18000,docs/managing-data/updating-data/overview.mdx
+How do on-the-fly mutations impact the stability of a ClickHouse cluster,docs/managing-data/updating-data/overview.mdx::18000,docs/managing-data/updating-data/overview.mdx
+What are the performance overhead implications of different update methods in ClickHouse,docs/managing-data/updating-data/overview.mdx::18000,docs/managing-data/updating-data/overview.mdx
+How can I prevent poorly written queries from consuming server resources in ClickHouse?,docs/guides/best-practices/skipping-indexes.md::13000,docs/guides/best-practices/skipping-indexes.md
+What are the best practices for using skip indexes in ClickHouse to improve query performance?,docs/guides/best-practices/skipping-indexes.md::13000,docs/guides/best-practices/skipping-indexes.md
+"When should I consider using a data skipping index in ClickHouse, and what are the alternatives to using one?",docs/guides/best-practices/skipping-indexes.md::13000,docs/guides/best-practices/skipping-indexes.md
+What are some examples of LEGO Friends products with their images and descriptions?,docs/getting-started/example-datasets/laion.md::5000,docs/getting-started/example-datasets/laion.md
+How can I find the LEGO Friends Andrea's Park Performance 2018 set online?,docs/getting-started/example-datasets/laion.md::5000,docs/getting-started/example-datasets/laion.md
+"What are some LEGO Friends sets available for girls aged 5-12, with details and images?",docs/getting-started/example-datasets/laion.md::5000,docs/getting-started/example-datasets/laion.md
+How many queries can ClickHouse handle at the same time?,docs/faq/general/concurrency.md::0,docs/faq/general/concurrency.md
+What kind of latency can I expect from analytical queries in ClickHouse?,docs/faq/general/concurrency.md::0,docs/faq/general/concurrency.md
+Can ClickHouse handle a large number of users making requests simultaneously?,docs/faq/general/concurrency.md::0,docs/faq/general/concurrency.md
+How does ClickHouse store data on disk when using the MergeTree engine?,docs/best-practices/_snippets/_avoid_optimize_final.md::0,docs/best-practices/_snippets/_avoid_optimize_final.md
+What are the potential drawbacks of manually triggering a merge using the OPTIMIZE TABLE command with the FINAL option?,docs/best-practices/_snippets/_avoid_optimize_final.md::0,docs/best-practices/_snippets/_avoid_optimize_final.md
+"Why is it generally not recommended to use the OPTIMIZE FINAL operation in most cases, and what are the potential performance impacts?",docs/best-practices/_snippets/_avoid_optimize_final.md::0,docs/best-practices/_snippets/_avoid_optimize_final.md
+How does ClickHouse handle access control and account management?,docs/guides/sre/user-management/index.md::0,docs/guides/sre/user-management/index.md
+What are the different entities that can be configured for access control in ClickHouse?,docs/guides/sre/user-management/index.md::0,docs/guides/sre/user-management/index.md
+What methods are available to manage access entities in ClickHouse and which one is recommended?,docs/guides/sre/user-management/index.md::0,docs/guides/sre/user-management/index.md
+What kind of data is being displayed in this table?,docs/tutorial.md::10000,docs/tutorial.md
+Are there multiple types of locations listed in this data?,docs/tutorial.md::10000,docs/tutorial.md
+What is the range of values in the third column of this table?,docs/tutorial.md::10000,docs/tutorial.md
+How do insert mechanics work in asynchronous inserts?,docs/best-practices/_snippets/_async_inserts.md::2000,docs/best-practices/_snippets/_async_inserts.md
+What happens when the wait_for_async_insert setting is set to 1?,docs/best-practices/_snippets/_async_inserts.md::2000,docs/best-practices/_snippets/_async_inserts.md
+What are the implications of setting wait_for_async_insert to 0 in terms of data reliability?,docs/best-practices/_snippets/_async_inserts.md::2000,docs/best-practices/_snippets/_async_inserts.md
+What are the different types of database objects that can be included in a backup or restore operation?,docs/operations_/backup_restore/_snippets/_syntax.md::0,docs/operations_/backup_restore/_snippets/_syntax.md
+How do I specify the location where I want to save or load my backups?,docs/operations_/backup_restore/_snippets/_syntax.md::0,docs/operations_/backup_restore/_snippets/_syntax.md
+What are the available storage options for saving and loading backups?,docs/operations_/backup_restore/_snippets/_syntax.md::0,docs/operations_/backup_restore/_snippets/_syntax.md
+What are the benefits of using ClickHouse's HTTP interface for inserting data?,docs/best-practices/selecting_an_insert_strategy.md::11000,docs/best-practices/selecting_an_insert_strategy.md
+How does the performance of HTTP inserts compare to using the native protocol in ClickHouse?,docs/best-practices/selecting_an_insert_strategy.md::11000,docs/best-practices/selecting_an_insert_strategy.md
+What are the key limitations of using the HTTP interface for data insertion in ClickHouse?,docs/best-practices/selecting_an_insert_strategy.md::11000,docs/best-practices/selecting_an_insert_strategy.md
+How can I remove outdated data from my ClickHouse database?,docs/faq/operations/delete-old-data.md::1000,docs/faq/operations/delete-old-data.md
+What's the difference between using DELETE FROM and ALTER DELETE in ClickHouse?,docs/faq/operations/delete-old-data.md::1000,docs/faq/operations/delete-old-data.md
+Are there any alternative methods to delete data in ClickHouse besides the DELETE statement?,docs/faq/operations/delete-old-data.md::1000,docs/faq/operations/delete-old-data.md
+What happens when the from_version field is set in a ClickHouse Keeper request?,docs/guides/sre/keeper/index.md::72000,docs/guides/sre/keeper/index.md
+How do I wait for cluster reconfiguration in ClickHouse Keeper?,docs/guides/sre/keeper/index.md::72000,docs/guides/sre/keeper/index.md
+What are the steps to convert a single-node keeper into a cluster in ClickHouse?,docs/guides/sre/keeper/index.md::72000,docs/guides/sre/keeper/index.md
+How do I get started with using ClickHouse and what are some beginner resources?,docs/getting-started/quick-start/cloud.mdx::11000,docs/getting-started/quick-start/cloud.mdx
+What is the process for inserting data into a table in ClickHouse using the command line?,docs/getting-started/quick-start/cloud.mdx::11000,docs/getting-started/quick-start/cloud.mdx
+What are some recommended next steps after I have inserted data into my ClickHouse table?,docs/getting-started/quick-start/cloud.mdx::11000,docs/getting-started/quick-start/cloud.mdx
+What happens to my data if there's an error while inserting it into a materialized view?,docs/data-modeling/projections/2_materialized-views-versus-projections.md::8000,docs/data-modeling/projections/2_materialized-views-versus-projections.md
+How do materialized views and projections differ in terms of maintenance and upkeep?,docs/data-modeling/projections/2_materialized-views-versus-projections.md::8000,docs/data-modeling/projections/2_materialized-views-versus-projections.md
+Can I use materialized views or projections with queries that include the FINAL keyword?,docs/data-modeling/projections/2_materialized-views-versus-projections.md::8000,docs/data-modeling/projections/2_materialized-views-versus-projections.md
+How can I visualize query execution with the analyzer in ClickHouse?,docs/guides/developer/understanding-query-execution-with-the-analyzer.md::18000,docs/guides/developer/understanding-query-execution-with-the-analyzer.md
+What format should I use to display query execution results in a readable way?,docs/guides/developer/understanding-query-execution-with-the-analyzer.md::18000,docs/guides/developer/understanding-query-execution-with-the-analyzer.md
+How do I generate a graph that represents the pipeline of a query in ClickHouse?,docs/guides/developer/understanding-query-execution-with-the-analyzer.md::18000,docs/guides/developer/understanding-query-execution-with-the-analyzer.md
+How do I prevent overwriting existing data when restoring a table from a backup?,docs/operations_/backup_restore/_snippets/_generic_settings.md::3000,docs/operations_/backup_restore/_snippets/_generic_settings.md
+What's the purpose of setting a storage policy during table restoration?,docs/operations_/backup_restore/_snippets/_generic_settings.md::3000,docs/operations_/backup_restore/_snippets/_generic_settings.md
+Is it possible to limit the number of retries when performing backup or restore operations due to ZooKeeper failures?,docs/operations_/backup_restore/_snippets/_generic_settings.md::3000,docs/operations_/backup_restore/_snippets/_generic_settings.md
+How does a node become the coordinator for a query in a cluster?,docs/deployment-guides/parallel-replicas.mdx::6000,docs/deployment-guides/parallel-replicas.mdx
+What happens to a replica that doesn't provide an announcement during query processing?,docs/deployment-guides/parallel-replicas.mdx::6000,docs/deployment-guides/parallel-replicas.mdx
+How do replicas request new tasks from the coordinator in dynamic coordination?,docs/deployment-guides/parallel-replicas.mdx::6000,docs/deployment-guides/parallel-replicas.mdx
+How do I create reusable logic in ClickHouse without using control flow?,docs/guides/developer/stored-procedures-and-prepared-statements.md::1000,docs/guides/developer/stored-procedures-and-prepared-statements.md
+What are the limitations of using user-defined functions in ClickHouse?,docs/guides/developer/stored-procedures-and-prepared-statements.md::1000,docs/guides/developer/stored-procedures-and-prepared-statements.md
+Can I use loops or recursive functions in lambda-based user-defined functions in ClickHouse?,docs/guides/developer/stored-procedures-and-prepared-statements.md::1000,docs/guides/developer/stored-procedures-and-prepared-statements.md
+What types of backups are suitable for small and large databases?,docs/operations_/backup_restore/00_overview.md::4000,docs/operations_/backup_restore/00_overview.md
+How can I prevent multiple backup operations from running simultaneously in ClickHouse?,docs/operations_/backup_restore/00_overview.md::4000,docs/operations_/backup_restore/00_overview.md
+Can I customize the compression settings when creating a backup in ClickHouse?,docs/operations_/backup_restore/00_overview.md::4000,docs/operations_/backup_restore/00_overview.md
+Where do I configure logging settings for ClickHouse?,docs/deployment-guides/replication-sharding-examples/02_2_shards_1_replica.md::7000,docs/deployment-guides/replication-sharding-examples/02_2_shards_1_replica.md
+How do I set up a cluster in ClickHouse and define its layout?,docs/deployment-guides/replication-sharding-examples/02_2_shards_1_replica.md::7000,docs/deployment-guides/replication-sharding-examples/02_2_shards_1_replica.md
+What is the purpose of the allow_distributed_ddl_queries setting in ClickHouse configuration?,docs/deployment-guides/replication-sharding-examples/02_2_shards_1_replica.md::7000,docs/deployment-guides/replication-sharding-examples/02_2_shards_1_replica.md
+How does ClickHouse optimize filter evaluation on multiple columns?,docs/managing-data/core-concepts/academic_overview.mdx::44000,docs/managing-data/core-concepts/academic_overview.mdx
+What data structures are used in ClickHouse for aggregation and joins?,docs/managing-data/core-concepts/academic_overview.mdx::44000,docs/managing-data/core-concepts/academic_overview.mdx
+What optimizations are applied to hash tables in ClickHouse for better performance?,docs/managing-data/core-concepts/academic_overview.mdx::44000,docs/managing-data/core-concepts/academic_overview.mdx
+How do I connect my ClickHouse service to Superset to use the OpenCelliD dataset?,docs/getting-started/example-datasets/cell-towers.md::19000,docs/getting-started/example-datasets/cell-towers.md
+What type of chart in Superset is well-suited for displaying the OpenCelliD cell tower dataset on a map?,docs/getting-started/example-datasets/cell-towers.md::19000,docs/getting-started/example-datasets/cell-towers.md
+What needs to be installed if the ClickHouse Connect option is not available when trying to add a database to Superset?,docs/getting-started/example-datasets/cell-towers.md::19000,docs/getting-started/example-datasets/cell-towers.md
+What data types are available for storing different types of user data in ClickHouse?,docs/guides/best-practices/sparse-primary-indexes.md::3000,docs/guides/best-practices/sparse-primary-indexes.md
+How can I store information about a user's browsing history and device in ClickHouse?,docs/guides/best-practices/sparse-primary-indexes.md::3000,docs/guides/best-practices/sparse-primary-indexes.md
+What are the supported data formats for storing URL and network-related information in ClickHouse?,docs/guides/best-practices/sparse-primary-indexes.md::3000,docs/guides/best-practices/sparse-primary-indexes.md
+How does ClickHouse store data to reduce unnecessary data loading during queries?,docs/intro.md::4000,docs/intro.md
+What method does ClickHouse use to ensure data is stored redundantly on multiple nodes for integrity?,docs/intro.md::4000,docs/intro.md
+What type of query language does ClickHouse support for performing various database operations?,docs/intro.md::4000,docs/intro.md
+How can I import SSB data from CSV files into ClickHouse?,docs/getting-started/example-datasets/star-schema.md::4000,docs/getting-started/example-datasets/star-schema.md
+What is the process of creating a denormalized table in ClickHouse and what are the benefits?,docs/getting-started/example-datasets/star-schema.md::4000,docs/getting-started/example-datasets/star-schema.md
+What SQL query can be used to create a denormalized table called lineorder_flat in ClickHouse?,docs/getting-started/example-datasets/star-schema.md::4000,docs/getting-started/example-datasets/star-schema.md
+What are the primary use cases for organizing data into partitions in a database?,docs/managing-data/core-concepts/partitions.mdx::5000,docs/managing-data/core-concepts/partitions.mdx
+How can I set up automatic data removal or transfer to a different storage tier based on a specific condition?,docs/managing-data/core-concepts/partitions.mdx::5000,docs/managing-data/core-concepts/partitions.mdx
+"Can partitioning improve query performance and if so, under what conditions?",docs/managing-data/core-concepts/partitions.mdx::5000,docs/managing-data/core-concepts/partitions.mdx
+What alternatives are available for orchestrating tasks in ClickHouse besides its built-in capabilities?,docs/guides/developer/stored-procedures-and-prepared-statements.md::18000,docs/guides/developer/stored-procedures-and-prepared-statements.md
+How can I avoid SQL injection when building queries with user-provided data in ClickHouse?,docs/guides/developer/stored-procedures-and-prepared-statements.md::18000,docs/guides/developer/stored-procedures-and-prepared-statements.md
+What are the benefits of using external tools for scheduling and orchestrating database queries in ClickHouse?,docs/guides/developer/stored-procedures-and-prepared-statements.md::18000,docs/guides/developer/stored-procedures-and-prepared-statements.md
+How do I download the MgBench data for testing in ClickHouse?,docs/getting-started/example-datasets/brown-benchmark.md::0,docs/getting-started/example-datasets/brown-benchmark.md
+What SQL commands do I need to create the MgBench database and tables?,docs/getting-started/example-datasets/brown-benchmark.md::0,docs/getting-started/example-datasets/brown-benchmark.md
+How can I insert data from the MgBench CSV files into the ClickHouse database?,docs/getting-started/example-datasets/brown-benchmark.md::0,docs/getting-started/example-datasets/brown-benchmark.md
+What data type is recommended for the LastEditDate field if millisecond granularity is not needed?,docs/data-modeling/schema-design.md::16000,docs/data-modeling/schema-design.md
+How should null values be handled for the Title and Tags fields?,docs/data-modeling/schema-design.md::16000,docs/data-modeling/schema-design.md
+What is the suggested approach to handling null and zero values for the FavoriteCount field?,docs/data-modeling/schema-design.md::16000,docs/data-modeling/schema-design.md
+How can I rewrite inner joins to improve performance in ClickHouse?,docs/guides/joining-tables.md::1000,docs/guides/joining-tables.md
+What is the benefit of using subqueries instead of joins in certain queries?,docs/guides/joining-tables.md::1000,docs/guides/joining-tables.md
+How can I minimize the size of the data when using joins and subqueries in ClickHouse?,docs/guides/joining-tables.md::1000,docs/guides/joining-tables.md
+What approach is recommended for scaling ClickHouse replicas?,docs/best-practices/sizing-and-hardware-recommendations.md::6000,docs/best-practices/sizing-and-hardware-recommendations.md
+How does ClickHouse handle sharding and what are the implications for compute resources?,docs/best-practices/sizing-and-hardware-recommendations.md::6000,docs/best-practices/sizing-and-hardware-recommendations.md
+What are some example configurations for large workloads in ClickHouse and what factors are considered?,docs/best-practices/sizing-and-hardware-recommendations.md::6000,docs/best-practices/sizing-and-hardware-recommendations.md
+How do projections interact with parallel replicas in ClickHouse?,docs/deployment-guides/parallel-replicas.mdx::13000,docs/deployment-guides/parallel-replicas.mdx
+What kind of data can negatively impact query performance when using parallel replicas?,docs/deployment-guides/parallel-replicas.mdx::13000,docs/deployment-guides/parallel-replicas.mdx
+Is the new analyzer compatible with parallel replicas and how does it affect performance?,docs/deployment-guides/parallel-replicas.mdx::13000,docs/deployment-guides/parallel-replicas.mdx
+What are materialized views good for in terms of data processing and pipeline?,docs/data-modeling/projections/2_materialized-views-versus-projections.md::12000,docs/data-modeling/projections/2_materialized-views-versus-projections.md
+When should I use materialized views instead of other methods for data transformation?,docs/data-modeling/projections/2_materialized-views-versus-projections.md::12000,docs/data-modeling/projections/2_materialized-views-versus-projections.md
+What kind of use cases are materialized views particularly well-suited for?,docs/data-modeling/projections/2_materialized-views-versus-projections.md::12000,docs/data-modeling/projections/2_materialized-views-versus-projections.md
+What package do I need to install to get the ClickHouse server up and running with its default configuration?,docs/getting-started/install/_snippets/_deb_install.md::4000,docs/getting-started/install/_snippets/_deb_install.md
+How do I install a specific version of the ClickHouse client and server on my system?,docs/getting-started/install/_snippets/_deb_install.md::4000,docs/getting-started/install/_snippets/_deb_install.md
+Do I need to install a separate package to run ClickHouse Keeper on the same server as the ClickHouse server?,docs/getting-started/install/_snippets/_deb_install.md::4000,docs/getting-started/install/_snippets/_deb_install.md
+What's the first thing I should learn about when deploying ClickHouse?,docs/deployment-guides/index.md::0,docs/deployment-guides/index.md
+How can I make my ClickHouse setup more resilient to failures?,docs/deployment-guides/index.md::0,docs/deployment-guides/index.md
+What are the different ways I can set up a group of ClickHouse servers?,docs/deployment-guides/index.md::0,docs/deployment-guides/index.md
+When should I use the JSON column type in ClickHouse for storing data?,docs/best-practices/json_type.md::0,docs/best-practices/json_type.md
+What are some best practices for using the JSON type to improve efficiency in ClickHouse?,docs/best-practices/json_type.md::0,docs/best-practices/json_type.md
+How can I optimize the performance of JSON data in ClickHouse by configuring path types and other settings?,docs/best-practices/json_type.md::0,docs/best-practices/json_type.md
+How can I group names of people by age intervals?,docs/guides/examples/aggregate_function_combinators/groupArrayResample.md::1000,docs/guides/examples/aggregate_function_combinators/groupArrayResample.md
+What function can be used to aggregate values into arrays based on a specific column?,docs/guides/examples/aggregate_function_combinators/groupArrayResample.md::1000,docs/guides/examples/aggregate_function_combinators/groupArrayResample.md
+How do I resample data to aggregate values within specified intervals?,docs/guides/examples/aggregate_function_combinators/groupArrayResample.md::1000,docs/guides/examples/aggregate_function_combinators/groupArrayResample.md
+How do primary keys in ClickHouse differ from those in other databases?,docs/getting-started/quick-start/cloud.mdx::5000,docs/getting-started/quick-start/cloud.mdx
+What are the implications of choosing a primary key for data sorting in ClickHouse?,docs/getting-started/quick-start/cloud.mdx::5000,docs/getting-started/quick-start/cloud.mdx
+How does ClickHouse handle table sorting when both PRIMARY KEY and ORDER BY are specified?,docs/getting-started/quick-start/cloud.mdx::5000,docs/getting-started/quick-start/cloud.mdx
+What happens when there are multiple operations with the same ID?,docs/operations_/backup_restore/_snippets/_generic_settings.md::1000,docs/operations_/backup_restore/_snippets/_generic_settings.md
+How do I specify the compression level when creating a backup?,docs/operations_/backup_restore/_snippets/_generic_settings.md::1000,docs/operations_/backup_restore/_snippets/_generic_settings.md
+What archive type requires a password for backup,docs/operations_/backup_restore/_snippets/_generic_settings.md::1000,docs/operations_/backup_restore/_snippets/_generic_settings.md
+How does changing the column order in the primary index affect query performance in ClickHouse?,docs/guides/best-practices/sparse-primary-indexes.md::58000,docs/guides/best-practices/sparse-primary-indexes.md
+What kind of search does ClickHouse run over index marks when the first column of the primary index is used in a query?,docs/guides/best-practices/sparse-primary-indexes.md::58000,docs/guides/best-practices/sparse-primary-indexes.md
+Why might a query filtering on a specific column still run inefficiently even with an optimized primary index?,docs/guides/best-practices/sparse-primary-indexes.md::58000,docs/guides/best-practices/sparse-primary-indexes.md
+How can I determine which queries are taking the longest to execute in my database?,docs/guides/best-practices/query-optimization.md::7000,docs/guides/best-practices/query-optimization.md
+What information can I get from the query logs to identify system-stressing queries?,docs/guides/best-practices/query-optimization.md::7000,docs/guides/best-practices/query-optimization.md
+Is there a SQL query that can be used to find the top memory-consuming queries in my ClickHouse database?,docs/guides/best-practices/query-optimization.md::7000,docs/guides/best-practices/query-optimization.md
+How can I get ClickHouse to process queries faster by utilizing multiple cores?,docs/guides/best-practices/_snippets/_performance_optimizations_table_of_contents.md::1000,docs/guides/best-practices/_snippets/_performance_optimizations_table_of_contents.md
+What are some strategies for choosing the right partition key to speed up my queries?,docs/guides/best-practices/_snippets/_performance_optimizations_table_of_contents.md::1000,docs/guides/best-practices/_snippets/_performance_optimizations_table_of_contents.md
+Are there any ClickHouse features that can help skip over irrelevant data when filtering on non-primary key columns?,docs/guides/best-practices/_snippets/_performance_optimizations_table_of_contents.md::1000,docs/guides/best-practices/_snippets/_performance_optimizations_table_of_contents.md
+What are the different types of packets that a server can send?,docs/native-protocol/server.md::0,docs/native-protocol/server.md
+How does a server indicate the end of a data stream?,docs/native-protocol/server.md::0,docs/native-protocol/server.md
+Which server packet types support compression?,docs/native-protocol/server.md::0,docs/native-protocol/server.md
+What are the required fields for defining a ClickHouse cluster?,docs/kubernetes-operator/04_api_reference.mdx::0,docs/kubernetes-operator/04_api_reference.mdx
+How do I configure the storage for data volumes in a ClickHouse cluster?,docs/kubernetes-operator/04_api_reference.mdx::0,docs/kubernetes-operator/04_api_reference.mdx
+What is the default number of replicas in a single shard for a ClickHouse cluster?,docs/kubernetes-operator/04_api_reference.mdx::0,docs/kubernetes-operator/04_api_reference.mdx
+What happens if the DNS request for a server's domain fails?,docs/deployment-guides/replication-sharding-examples/_snippets/_server_parameter_table.mdx::0,docs/deployment-guides/replication-sharding-examples/_snippets/_server_parameter_table.mdx
+How do I specify the network location of a remote server in ClickHouse?,docs/deployment-guides/replication-sharding-examples/_snippets/_server_parameter_table.mdx::0,docs/deployment-guides/replication-sharding-examples/_snippets/_server_parameter_table.mdx
+What is the difference between the port used for messenger activity and the http port in ClickHouse configuration?,docs/deployment-guides/replication-sharding-examples/_snippets/_server_parameter_table.mdx::0,docs/deployment-guides/replication-sharding-examples/_snippets/_server_parameter_table.mdx
