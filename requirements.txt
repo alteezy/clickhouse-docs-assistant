@@ -11,3 +11,4 @@ fastembed==0.8.0
 openai==2.46.0
 python-dotenv==1.2.2
 pandas==2.2.2
+pydantic-ai==2.13.0
