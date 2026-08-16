@@ -106,9 +106,12 @@ that succeeded rather than waiting out the daily quota.
 ## Interface
 
 A Streamlit chat app (`app/main.py`) — ask a question, get a grounded answer, with example-question
-buttons and thumbs up/down feedback on every response.
+buttons and thumbs up/down feedback on every response. Off-topic questions are declined rather than
+answered from general knowledge, since the assistant only draws on the retrieved ClickHouse docs.
 
-<!-- TODO: screenshot of the chat UI (run `docker compose up -d`, screenshot http://localhost:8501) -->
+![Chat UI landing page, with example questions in the sidebar](docs/screenshots/chat1.png)
+
+![Chat UI answering a grounded ClickHouse question and declining an off-topic one](docs/screenshots/chat3.png)
 
 ## Monitoring
 
@@ -124,7 +127,13 @@ it. A separate Streamlit dashboard (`monitoring/dashboard.py`) shows:
 
 ...plus a recent-conversations table and a time-range filter (7 / 30 / 90 days / all).
 
-<!-- TODO: screenshot of the monitoring dashboard (run `docker compose up -d`, screenshot http://localhost:8502) -->
+![Dashboard summary stats and conversations-per-day chart](docs/screenshots/dashboard1.png)
+
+![Average latency by step and feedback up/down charts](docs/screenshots/dashboard2.png)
+
+![Token usage per day and most-asked questions charts](docs/screenshots/dashboard3.png)
+
+![Most-asked questions chart and recent-conversations table](docs/screenshots/dashboard4.png)
 
 ## Setup
 
